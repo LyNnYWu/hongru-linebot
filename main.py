@@ -31,8 +31,8 @@ stock_price_dict = {
 app = Flask(__name__)
 
 # LINE_CHANNEL_SECRET 和 LINE_CHANNEL_ACCESS_TOKEN 類似聊天機器人的密碼，記得不要放到 repl.it 或是和他人分享
-line_bot_api = LineBotApi('zdt7D6bxSUlbmcUaGl/eKs74xWK6AzhuevwRYREHPyfnIAg4SgMS8MFYUU3MYJjCi5kNEzTZnBAc5Dtz708hAxBB6BISlgjyZ3sdwTBU3j3shecWnpaxDZDgdD/K2NmNgQaL2Gcu91nOr6MAa3C3fQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('a2117b1cfe20621d5e375a5c1d2d8afa')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 
 
 # 此為 Webhook callback endpoint
